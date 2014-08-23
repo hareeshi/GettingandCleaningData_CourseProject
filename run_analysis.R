@@ -1,6 +1,6 @@
 library(reshape2)
 
-#################### Task 1: Merge and the train and test data########
+#################### Task 1: Merge the train and test data########
 
 #Read the raw train data and append the activity id and subject id 
 train_raw_data <- read.table("./train/X_train.txt")
