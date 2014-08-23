@@ -11,12 +11,14 @@ Task 4: Appropriately labels the data set with descriptive variable names.
 Task 5: Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Prerequisites:
+
 1. Download and unzip the samsung data file from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 2. The run_analysis.R should be placed under <unzip dir>/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset 
 3. The directory where the script is placed should be set as the working directory.
 4. In other words, the script directory will have test and train folder in the same directory
 
 Script Logic:
+
 In this scripts the tasks above are accomplished in the below order
 
 1. Task 1: Merges the train and test data. This step includes reading the test and train data, appending the activity id and subject id and combinding the data sets
