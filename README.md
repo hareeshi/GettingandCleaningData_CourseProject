@@ -33,6 +33,6 @@ In this scripts the tasks above are accomplished in the below order
 4.Task 2: Extracts only measurements of the mean and standard deviation for each measurement
   The script subsets the data to keep only the mean and sd related columns
 
-5. Create an independent data set with average of each activity and subject  
+5.Task 5: Create an independent data set with average of each activity and subject  
   The final step is to group the data with subject id and activity name with average of all other measures. The script uses aggregate functions to do that. The tidy data is then written into a local file.
    
